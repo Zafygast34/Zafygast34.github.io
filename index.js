@@ -95,3 +95,10 @@ function volverBuscar() {
     // Ocultar el botón de regresar
     regresarBtn.style.display = "none";
 }
+
+document.querySelectorAll('.ejemplos span').forEach(example => {
+    example.addEventListener('click', () => {
+        document.getElementById('rapero').value = example.textContent;
+    });
+});
+
