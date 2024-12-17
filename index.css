@@ -165,3 +165,22 @@ p {
 #regresar:hover {
     background-color: #555;
 }
+
+.ejemplos {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #FFD700;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.ejemplos span {
+    font-weight: bold;
+    color: #FFF; /* Para destacar los ejemplos */
+    cursor: pointer;
+}
+
+.ejemplos span:hover {
+    text-decoration: underline;
+    color: #FFD700;
+}
+
